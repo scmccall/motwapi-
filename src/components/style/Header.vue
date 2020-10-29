@@ -1,6 +1,6 @@
 <template>
   <header>
-    <b-navbar type="light" variant="info" toggleable="md">
+    <b-navbar type="light" variant="danger" toggleable="md">
       <b-navbar-brand>
         <router-link to="/">MOTWAPI</router-link>
       </b-navbar-brand>
@@ -14,9 +14,9 @@
             <router-link to="/documentation">Documentation</router-link>
           </b-nav-item>
           <b-nav-item>
-            <a href="https://github.com/scmccall/motwAPI" target="__blank"
+            <b-link href="https://github.com/scmccall/motwAPI" target="__blank"
               >Contribute
-            </a>
+            </b-link>
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -28,4 +28,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+a {
+  color: black;
+}
+</style>
