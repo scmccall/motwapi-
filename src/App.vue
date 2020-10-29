@@ -16,6 +16,10 @@ import Footer from "./components/style/Footer.vue";
 
 export default {
   name: "App",
+  metaInfo: {
+    title: "MOTWAPI: A Monster of the Week API",
+    titleTemplate: "%s | MOTWAPI"
+  },
   components: {
     Header,
     Footer

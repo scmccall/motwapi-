@@ -35,6 +35,10 @@
 import axios from "axios";
 
 export default {
+  metaInfo: {
+    title: "MOTWAPI - A Monster of the Week API",
+    titleTemplate: null
+  },
   data() {
     return {
       apiCallPrefix: "https://motwapi.com/api/v1/",

@@ -1268,7 +1268,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  metaInfo: {
+    title: "Documentation"
+  }
+};
 </script>
 
 <style></style>
