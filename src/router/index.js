@@ -23,5 +23,6 @@ const routes = [
 
 export default new Router({
   mode: "history",
+  hash: "false",
   routes
 });
